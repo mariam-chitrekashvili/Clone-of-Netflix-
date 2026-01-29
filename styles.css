@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+
+
+body {
+    background-color: black;
+    background-image: url(./NETBACK.jpg);
+    background-repeat: no-repeat;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+header h1 {
+    color: #E50914;
+    font-style: normal;
+    margin-top: 10px;
+    position: relative;
+    right: 60px;
+
+
+}
+
+header select {
+    background-color: transparent;
+    font-size: medium;
+    border-color: white;
+    color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    position: relative;
+    left: 350px;
+
+    padding: 1px 45px;
+
+
+}
+
+header option {
+    background-color: white;
+    color: black;
+    font-size: medium;
+
+}
+
+header button {
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-style: unset;
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+
+}
+
+.h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.h3 {
+    font-size: 20px;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.936);
+
+}
+
+.paragraph {
+    color: rgb(223, 255, 255);
+    font-style: normal;
+    align-self: center;
+
+}
+
+.form1 {
+    padding-top: 10px;
+    margin-left: 90px;
+}
+
+.content-1 {
+    background-color: black;
+}
+
+input {
+    background-color: transparent;
+    height: 60px;
+    width: 400px;
+    color: white;
+    border: 2px solid rgba(165, 31, 31, 0.863);
+    padding: 10px;
+    font-size: medium;
+    font-style: normal;
+    position: relative;
+    right: 50px;
+    border-radius: 5px;
+}
+
+.form1 button {
+    background-color: red;
+    border: red;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    height: 60px;
+    padding: 10px 40px;
+    font-size: large;
+    position: relative;
+    right: 47px;
+    cursor: pointer;
+}
+
+
+.content-2 {
+    margin-top: 280px;
+    background-color: black;
+}
+
+
+
+.h-1 {
+    color: white;
+    margin-left: 150px;
+    padding-top: 60px;
+
+
+
+}
+
+
+.chooser {
+    background-color: transparent;
+    color: white;
+    border: 0.2 px;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-left: 150px;
+
+
+}
+
+option {
+    background-color: white;
+    color: black;
+    font-size: medium;
+}
+
+
+
+.movies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+    margin-left: 150px;
+}
+
+
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: 150px;
+
+
+}
+
+.parent-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.parent h1 {
+    color: white;
+
+}
+
+.cards {
+    background-color: rgba(48, 30, 110, 0.9);
+    border-radius: 10px;
+    width: 280px;
+    height: 290px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+
+}
+
+.hyp1,
+.par1 {
+    color: rgba(255, 255, 255, 0.858);
+    margin-top: 10px;
+}
+
+
+
+h2 {
+    color: white;
+    margin-left: 160px;
+    position: relative;
+    top: 60px;
+}
+
+.Faq-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 70px;
+}
+
+
+
+.Faq-container button {
+    background-color: rgba(64, 64, 64, 0.593);
+    color: white;
+    font-size: large;
+    height: 80px;
+    width: 1200px;
+    margin-top: 10px;
+}
+
+.par2 {
+    color: white;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 180px;
+
+}
+
+.registration form {
+    position: relative;
+    top: 10px;
+}
+
+.registration input {
+    width: 600px;
+    border: 0.003px solid white;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+footer a {
+    color: rgba(240, 248, 255, 0.588);
+    font-size: large;
+}
+
+.a {
+    font-size: large !important;
+    margin-left: 160px;
+
+    margin-top: 100px;
+}
+
+footer select {
+    background-color: transparent;
+    font-size: medium;
+    border-color: white;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 30px;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+footer option {
+    background-color: white;
+    color: black;
+    font-size: medium;
+
+
+
+}
+
+.choose {
+    margin-top: 80px;
+    margin-left: 160px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+
+footer p {
+    margin-top: 40px;
+    color: rgba(252, 240, 217, 0.773);
+
+
+}
+
+.just {
+    height: 200px;
+    width: 100%;
+}
